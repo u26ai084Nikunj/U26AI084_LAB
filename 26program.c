@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&n);
     for(int i=1,j=2;i<=n,j<=n;i+=2,j+=2){
         sum1=sum1+i;
-        sum2=sum2+1;
+        sum2=sum2+j;
     }
     printf("The sum of even numbers from 1 to n is %d \n",sum1);
     printf("The sum of odd numbers from 1 to n is %d \n",sum2);
