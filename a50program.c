@@ -11,7 +11,7 @@ int main(){
     for(int a=0;a<n;a++){
         printf("%d\t",arr[a]);
     }
-    for(int j=0;j<n;j++){
+    for(int j=0;j<n-1;j++){
     for(int k=0;k<n;k++){
         if (arr[k]>arr[k+1]){
             t=arr[k];
